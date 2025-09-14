@@ -15,7 +15,7 @@
 - Lowercase text.
 - Drop rows that become empty after cleaning.
 
-**Modeling**
+**Model**
 - Use a SentenceTransformer to turn each review into a vector (embedding).
 - Use cosine similarity to find the closest reviews to the chosen one.
 - Return top-k(5) similar reviews with their `id` and similarity score.
