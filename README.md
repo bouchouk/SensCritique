@@ -7,7 +7,7 @@
 **Why embeddings (not TF-IDF)?**
 - Text is in French (maybe with a bit of English). Multilingual sentence embeddings understand meaning across both languages better than using TF-IDF.
 
-**Preprocessing (make a clean table)**
+**Preprocessing**
 - Keep only: `id` and cleaned `content` (so we can get the original review later by `id`).
 - Drop missing values.
 - Remove HTML.
