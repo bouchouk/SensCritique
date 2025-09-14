@@ -1,0 +1,6 @@
+pandas
+numpy
+beautifulsoup4
+scikit-learn
+sentence-transformers
+openpyxl
