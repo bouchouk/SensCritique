@@ -27,7 +27,7 @@
 2) **Project structure** – After analyzing in Colab, I packaged the recommendation system into a   small Python project for easy scripting and testing.
 3) **How to run locally:** clone the repo, `cd` into it, install requirements, then run  
    `python -m tests.test_fightclub` **or** `python -m tests.test_interstellar`,  
-   then enter the **id** of the review you want recommendations for.The result will be saved as a **csv** and **excel** file in **results**
+   then enter the **id** of the review you want recommendations for.The result will be saved as a **csv** and **excel** file in **results**.
 4) **time:** the script may take a few seconds before asking for the ID.because it re-runs the preprocessing and recomputes the vector embeddings on each run instead of loading a cached cleaned file using joblib since we assume the raw data can change between runs (when a new review is added).
 
 5) **AI usage** – Used AI to correct English, and to remember exact Python syntax for some functions (especially in the cosine similarity calculation).  
